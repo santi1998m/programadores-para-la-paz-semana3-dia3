@@ -10,3 +10,4 @@ while (intento <= maximoIntentos) {
 }
 
 console.log("Proceso de revisión finalizado.")
+// cambio
