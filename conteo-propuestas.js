@@ -1,11 +1,6 @@
-let propuestaActual = 1
-const totalPropuestas = 5
+let propuestas = 1;
 
-console.log("Conteo de propuestas comunitarias")
-
-while (propuestaActual <= totalPropuestas) {
-  console.log("Revisando propuesta número:", propuestaActual)
-  propuestaActual = propuestaActual + 1
+while (propuestas <= 3) {
+  console.log("Propuesta " + propuestas);
+  propuestas++;
 }
-
-console.log("Todas las propuestas fueron revisadas.")
